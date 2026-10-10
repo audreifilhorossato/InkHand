@@ -6,8 +6,8 @@ I write the alphabet by hand, turn each letter into single-line vectors, and a C
 
 > 🚧 **Status:** electronics bench test done (Oct 2026). Next: pen servo and mechanical design in Fusion 360.
 
-<!-- Replace with photo F007 or a GIF of the plotter writing -->
-<!-- ![InkHand](docs/img/hero.jpg) -->
+![InkHand electronics bench test](docs/photos/F001.jpg)
+<!-- Replace with a GIF of the plotter writing when it works -->
 
 ## How it works
 
