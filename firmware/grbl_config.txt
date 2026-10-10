@@ -1,0 +1,8 @@
+# TODO: replace this file with the full output of `$$` from the UGS console.
+# Values set during the 2026-10-09 bench test:
+$100=160.000   (X steps/mm)
+$101=160.000   (Y steps/mm)
+$110=3000.000  (X max rate, mm/min)
+$111=3000.000  (Y max rate, mm/min)
+$120=300.000   (X acceleration, mm/s^2)
+$121=300.000   (Y acceleration, mm/s^2)

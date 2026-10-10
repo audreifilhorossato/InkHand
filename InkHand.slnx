@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="InkHand/InkHand.vcxproj" />
+  <Project Path="InkHand/InkHand.vcxproj" Id="c5cbf86c-cd0b-4171-b40f-9bc1a74b54f6" />
 </Solution>

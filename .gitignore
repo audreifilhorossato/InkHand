@@ -361,3 +361,16 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+# ===== InkHand =====
+# Generated output
+*.gcode
+
+# My real handwriting stays private (see README)
+data/glyphs_private/
+data/sheets_private/
+docs/journal/scans/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
