@@ -17,3 +17,4 @@ Scans of the notebook pages are kept out of the public repo because they show my
 |---|---|---|
 | [2026-10-08](2026-10-08.md) | 1 | Parts arrived, shopping list and repository plan |
 | [2026-10-09](2026-10-09.md) | 2 | Electronics bench test: drivers, GRBL, X/Y motors working |
+| [2026-10-10](2026-10-10.md) | 3 | Repository created, first Fusion 360 parts (base, rods, bearings, motors) |

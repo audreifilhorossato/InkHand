@@ -4,7 +4,7 @@
 
 I write the alphabet by hand, turn each letter into single-line vectors, and a C++ program assembles any text, adds small natural variations so no two letters look the same, and generates G-code for the plotter.
 
-> 🚧 **Status:** electronics bench test done (Oct 2026). Next: pen servo and mechanical design in Fusion 360.
+> 🚧 **Status:** electronics bench test done, mechanical design started in Fusion 360 (Oct 2026). Next: pen servo and the rest of the frame.
 
 ![InkHand electronics bench test](docs/photos/F001.jpg)
 <!-- Replace with a GIF of the plotter writing when it works -->
