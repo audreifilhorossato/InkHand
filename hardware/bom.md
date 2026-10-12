@@ -14,6 +14,9 @@ Fill in supplier and price as you go.
 | 2 | GT2 pulley, 20 teeth, 6 mm belt | | | |
 | 2 | GT2 idler, 20 teeth | | | |
 | – | GT2 belt, 6 mm | length from Fusion model | | |
-| – | Steel rods + linear carriages | measure diameter/length | | |
+| 4 | Steel rod Ø8 × 400 mm | 2 for the bed (Y), 2 for the gantry (X) | | |
+| 10 | Linear bearing LM8SUU (short LM8UU, Ø8 × Ø15 × 16 mm) | 2 per rod: 4 on the bed, 4 on the X carriage, 2 spare | | |
 | 1 | MDF 15 mm (base) | | | |
-| – | MDF 6 mm / 3 mm (laser parts) | | | |
+| – | MDF 6 mm / 3 mm (laser parts) | bed 350 × 250 × 6 mm | | |
+| 1 | M3 screw kit (screws and nuts) | bearing blocks and rod supports. Bought 2026-10-11 | | |
+| 1 | Writing sheet, acrylic or similar | on top of the bed, screwed at its edges. Size and thickness to be defined | | |
