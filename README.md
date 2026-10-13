@@ -4,7 +4,7 @@
 
 I write the alphabet by hand, turn each letter into single-line vectors, and a C++ program assembles any text, adds small natural variations so no two letters look the same, and generates G-code for the plotter.
 
-> 🚧 **Status:** electronics bench test done; frame chosen (fixed gantry in X, moving bed in Y) and the Y axis drawn in Fusion 360 (Oct 2026). Next: finish the Y axis (bed holes, motor, belt), then the X gantry and the pen servo.
+> 🚧 **Status:** electronics bench test done; both axes drawn in Fusion 360: the moving bed with its writing sheet (Y) and the fixed gantry with the X carriage (Oct 2026). The servo and the LM2596 arrived, test pending. Next: motor mounts, belts and the pen lift (Z).
 
 ![InkHand electronics bench test](docs/photos/F001.jpg)
 <!-- Replace with a GIF of the plotter writing when it works -->
@@ -25,7 +25,7 @@ Writing:   letter.txt → inkhand write → letter.gcode → UGS → Arduino (GR
 | Drivers | 2 × DRV8825, 1/32 microstepping, 1.0 A (Vref 0.50 V) |
 | Motors | 2 × NEMA 17 (17HS4401S) |
 | Motion | Cartesian: fixed gantry in X, moving bed in Y, GT2 belt, 20-tooth pulleys |
-| Linear motion | 4 × Ø8 × 400 mm steel rods, LM8SUU bearings (2 per rod) in split bearing blocks |
+| Linear motion | 4 × Ø8 × 400 mm steel rods, LM8SUU bearings (2 per rod) in split bearing blocks. X rods side by side with the pen between them |
 | Resolution | 160 steps/mm (0.006 mm per step) |
 | Pen lift | Servo on Z+ (D11), powered by an LM2596 step-down at 5 V |
 | Power | 12 V 5 A |

@@ -20,5 +20,7 @@ Current values are in [grbl_config.txt](grbl_config.txt) (output of `$$`).
 
 ## Pen servo (pending)
 
+The servo and the LM2596 arrived on 2026-10-12. Test pending.
+
 - Signal on **Z+** limit pin (D11), power from LM2596 set to **5.0 V before connecting**, common GND.
 - `$30=255`, pen down `M3 S30` (to calibrate), pen up `M5`.

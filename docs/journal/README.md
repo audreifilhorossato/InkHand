@@ -19,3 +19,4 @@ Scans of the notebook pages are kept out of the public repo because they show my
 | [2026-10-09](2026-10-09.md) | 2 | Electronics bench test: drivers, GRBL, X/Y motors working |
 | [2026-10-10](2026-10-10.md) | 3 | Repository created, first Fusion 360 parts (base, rods, bearings, motors) |
 | [2026-10-11](2026-10-11.md) | 4 | Frame chosen (fixed gantry in X, moving bed in Y), Y axis in Fusion 360: rod supports, bearing blocks, bed |
+| [2026-10-12](2026-10-12.md) | 5 | Holes and joints fixed, writing sheet, X gantry in Fusion 360: uprights, rods side by side, carriage. Servo and LM2596 arrived |
