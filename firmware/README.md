@@ -18,9 +18,11 @@ Current values are in [grbl_config.txt](grbl_config.txt) (output of `$$`).
 
 > **Send one `$` command at a time and wait for `ok`.** GRBL stops listening to serial while it writes to EEPROM, so commands sent together get corrupted.
 
-## Pen servo (pending)
+## Pen servo
 
-The servo and the LM2596 arrived on 2026-10-12. Test pending.
+Tested on 2026-10-17 with the Tower Pro MG90S and the LM2596 ([journal](../docs/journal/2026-10-13_to_2026-10-17.md#servo-and-lm2596-test)).
 
-- Signal on **Z+** limit pin (D11), power from LM2596 set to **5.0 V before connecting**, common GND.
-- `$30=255`, pen down `M3 S30` (to calibrate), pen up `M5`.
+- Signal on **Z+** limit pin (D11), power from the LM2596 set to **5 V before connecting**, GND common through the supply ([wiring](../hardware/electronics/README.md)).
+- Settings, one at a time: `$30=255`, `$31=0`, `$32=0` (laser mode off: with it on, the servo only moves while the axes move).
+- Pen up `M5`, pen down `M3 S…`. The S values for pen up and pen down are set with the servo mounted on the carriage.
+- No homing needed: the MG90S (about 180°) goes straight to the angle it is sent. Fit the arm after an `M5`.

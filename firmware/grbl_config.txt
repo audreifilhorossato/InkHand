@@ -6,3 +6,8 @@ $110=3000.000  (X max rate, mm/min)
 $111=3000.000  (Y max rate, mm/min)
 $120=300.000   (X acceleration, mm/s^2)
 $121=300.000   (Y acceleration, mm/s^2)
+
+# Pen servo, from the 2026-10-17 servo test (confirm with $$):
+$30=255        (max spindle speed: top of the servo S range)
+$31=0          (min spindle speed)
+$32=0          (laser mode off)

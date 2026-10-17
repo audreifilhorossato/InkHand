@@ -2,6 +2,7 @@
 
 The source of truth is a handwritten lab notebook (numbered pages, in Portuguese).
 Each session is transcribed here in English, one file per session: `YYYY-MM-DD.md`.
+Days with no notebook pages can share one entry, named after the first and last day: `YYYY-MM-DD_to_YYYY-MM-DD.md`.
 
 Template:
 
@@ -20,3 +21,4 @@ Scans of the notebook pages are kept out of the public repo because they show my
 | [2026-10-10](2026-10-10.md) | 3 | Repository created, first Fusion 360 parts (base, rods, bearings, motors) |
 | [2026-10-11](2026-10-11.md) | 4 | Frame chosen (fixed gantry in X, moving bed in Y), Y axis in Fusion 360: rod supports, bearing blocks, bed |
 | [2026-10-12](2026-10-12.md) | 5 | Holes and joints fixed, writing sheet, X gantry in Fusion 360: uprights, rods side by side, carriage. Servo and LM2596 arrived |
+| [2026-10-13 to 2026-10-17](2026-10-13_to_2026-10-17.md) | 6 | No notebook pages. Servo and LM2596 tested, draft prints (rod holes Ø7.8 → Ø8.0), motor mounts, Arduino + CNC Shield and GT2 pulleys in Fusion 360 |

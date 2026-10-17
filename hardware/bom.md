@@ -9,14 +9,16 @@ Fill in supplier and price as you go.
 | 4 | DRV8825 stepper driver + heatsink | 2 in use, 2 spare. 1/32 microstepping, Vref 0.50 V | | |
 | 2 | NEMA 17 stepper, 17HS4401S | 1.7 A/phase | | |
 | 1 | Power supply 12 V 5 A | | | |
-| 1 | LM2596 adjustable step-down module | set to 5.0 V for the servo. Arrived 2026-10-12, not tested yet | | |
-| 1 | Servo Tower Pro MG90S (metal gear) | pen lift. Arrived 2026-10-12, not tested yet | | |
-| 2 | GT2 pulley, 20 teeth, 6 mm belt | | | |
-| 2 | GT2 idler, 20 teeth | | | |
+| 1 | DC barrel jack (P4) to screw terminal adapter | 12 V to the shield and the LM2596 | | |
+| 1 | LM2596 adjustable step-down module | set to 5 V for the servo. Arrived 2026-10-12, tested 2026-10-17 | | |
+| 1 | Servo Tower Pro MG90S (metal gear) | pen lift, 180°. Arrived 2026-10-12, tested 2026-10-17 | | |
+| 2 | GT2 pulley, 20 teeth, 6 mm belt | 5 mm bore, fits the motor shaft | | |
+| 2 | GT2 idler, 20 teeth | bore to measure (3 or 5 mm) | | |
+| – | GT2 belt tensioner springs | already have them. On the return run of each belt, near the idler | | |
 | – | GT2 belt, 6 mm | length from Fusion model | | |
 | 4 | Steel rod Ø8 × 400 mm | 2 for the bed (Y), 2 for the gantry (X) | | |
 | 10 | Linear bearing LM8SUU (short LM8UU, Ø8 × Ø15 × 16 mm) | 2 per rod: 4 on the bed, 4 on the X carriage, 2 spare | | |
 | 1 | MDF 15 mm (base) | | | |
 | – | MDF 6 mm / 3 mm (laser parts) | bed 350 × 250 × 6 mm, X carriage plate 144 × 70 × 6 mm | | |
-| 1 | M3 screw kit (screws and nuts) | 52 screws and 52 nuts in the model: M3 × 12 (12), × 14 (8), × 20 (16), × 25 (16). Button heads wherever a head sits under a plate or the base. List in the [2026-10-12 journal](../docs/journal/2026-10-12.md#screws). Bought 2026-10-11 | | |
+| 1 | M3 screw kit (screws and nuts) | 68 screws and 60 nuts so far: M3 × 8 (8), × 12 (12), × 14 (8), × 20 (20), × 25 (20). Button heads wherever a head sits under a plate or the base. Lists in the journal: [2026-10-12](../docs/journal/2026-10-12.md#screws) and [2026-10-13 to 17](../docs/journal/2026-10-13_to_2026-10-17.md#screws-for-the-new-parts). Bought 2026-10-11 | | |
 | 1 | Writing sheet, acrylic or similar | 350 × 250 × 3 mm in the model, on top of the bed, 4 screws near the corners | | |
