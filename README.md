@@ -4,7 +4,7 @@
 
 I write the alphabet by hand, turn each letter into single-line vectors, and a C++ program assembles any text, adds small natural variations so no two letters look the same, and generates G-code for the plotter.
 
-> 🚧 **Status:** electronics bench test done and the pen servo working on its LM2596; both axes drawn in Fusion 360 (the moving bed with its writing sheet in Y, the fixed gantry with the X carriage), now with the motor mounts, the GT2 pulleys and the Arduino + CNC Shield; first draft prints made (Oct 2026). Next: place the motors, belts and the pen lift (Z).
+> 🚧 **Status:** electronics bench test done and the pen servo working on its LM2596; both axes drawn in Fusion 360 (the moving bed with its writing sheet in Y, the fixed gantry with the X carriage), with the Y motor in place, the GT2 pulleys, the Arduino + CNC Shield and the LM2596; lighter uprights and rod supports; final prints started on a Bambu Lab X1 Carbon: all 8 bearing blocks and a first rod support (Oct 2026). Next: the X motor, idlers, belts and the pen lift (Z).
 
 ![InkHand electronics bench test](docs/photos/F001.jpg)
 <!-- Replace with a GIF of the plotter writing when it works -->

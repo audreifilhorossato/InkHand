@@ -15,4 +15,6 @@
 
 Servo test wiring, 2026-10-17: [F008](../../docs/photos/F008.jpg).
 
+On the base (Fusion 360 model, since 2026-10-19): the Arduino with the shield on 4 printed standoffs and the LM2596 on 2 more, about 6 mm from the Arduino. Each board is screwed from under the base with M3 × 25 and a nut on top ([journal](../../docs/journal/2026-10-19.md#the-model-on-this-day)).
+
 TODO: add a wiring diagram (Fritzing or hand drawing) as `wiring.png`.
