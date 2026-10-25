@@ -24,3 +24,5 @@ Scans of the notebook pages are kept out of the public repo because they show my
 | [2026-10-13 to 2026-10-17](2026-10-13_to_2026-10-17.md) | 6 | No notebook pages. Servo and LM2596 tested, draft prints (rod holes Ø7.8 → Ø8.0), motor mounts, Arduino + CNC Shield and GT2 pulleys in Fusion 360 |
 | [2026-10-19](2026-10-19.md) | 7 | Counterbores 3.0 → 3.3 mm, LM2596 and servo in Fusion 360, Y motor placed and its mount reinforced, first 4 final bearing blocks printed |
 | [2026-10-20](2026-10-20.md) | 8 | No notebook page. Lighter rod supports and upright (X windows), all 8 bearing blocks printed and assembled, test print of a rod support, print settings |
+| [2026-10-22](2026-10-22.md) | 9 | No notebook page. Idler support drawn (from a plate to a fork) with its holes in the base, the other 3 rod supports printed |
+| [2026-10-23](2026-10-23.md) | 10 | No notebook page. Belt line, base machined on a CNC router (counterbores redone by hand), idler supports and Y motor mount printed, Y axis assembled on the base, X motor mount started |
