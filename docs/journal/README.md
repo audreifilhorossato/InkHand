@@ -26,3 +26,5 @@ Scans of the notebook pages are kept out of the public repo because they show my
 | [2026-10-20](2026-10-20.md) | 8 | No notebook page. Lighter rod supports and upright (X windows), all 8 bearing blocks printed and assembled, test print of a rod support, print settings |
 | [2026-10-22](2026-10-22.md) | 9 | No notebook page. Idler support drawn (from a plate to a fork) with its holes in the base, the other 3 rod supports printed |
 | [2026-10-23](2026-10-23.md) | 10 | No notebook page. Belt line, base machined on a CNC router (counterbores redone by hand), idler supports and Y motor mount printed, Y axis assembled on the base, X motor mount started |
+| [2026-10-26](2026-10-26.md) | 11 | No notebook page. Uprights redrawn: one with the X motor plate, one with the X idler fork, idler axle at the height of the motor shaft. Fan support drawn. First upright print failed overnight |
+| [2026-10-27](2026-10-27.md) | 12 | No notebook page. Arduino, LM2596 and 12 V input fixed and wired on the base, one Arduino standoff shortened, 40 mm fan placed over the drivers, 2 uprights printed again |
