@@ -10,19 +10,20 @@ Fill in supplier and price as you go.
 | 2 | NEMA 17 stepper, 17HS4401S | 1.7 A/phase | | |
 | 1 | Power supply 12 V 5 A | about 2.5 A in use: motors, Arduino and servo, fan ([2026-10-27](../docs/journal/2026-10-27.md#the-fan)) | | |
 | 1 | DC barrel jack (P4) to screw terminal adapter | 12 V to the shield, the LM2596 and the fan. Fixed on the base on 2026-10-27, terminal covered with hot glue | | |
-| 1 | Fan 40 mm, 12 V 0.04 A (Botto Brasil, sleeve bearing) | from the lab. Blows on the 2 drivers, sticker side towards the board, on the 12 V input. On a printed support over the shield ([2026-10-27](../docs/journal/2026-10-27.md#the-fan)) | | |
+| 1 | Fan 40 mm, 12 V 0.04 A (Botto Brasil, sleeve bearing) | from the lab. Blows on the 2 drivers, sticker side towards the board, on the 12 V input. On a printed support over the shield ([2026-10-27](../docs/journal/2026-10-27.md#the-fan)). The support broke twice and its third version is glued with super glue for now. The fan isn't fixed yet: it is about 1 mm under the bed, so it will be glued or held by a snap-fit ([2026-11-06](../docs/journal/2026-11-06.md#the-fan-support-broke-again)) | | |
 | 1 | LM2596 adjustable step-down module | set to 5 V for the servo. Arrived 2026-10-12, tested 2026-10-17. On 2 printed standoffs next to the Arduino. Header pins replaced by wires to the 12 V input on 2026-10-27 | | |
 | 1 | Servo Tower Pro MG90S (metal gear) | pen lift, 180°. Arrived 2026-10-12, tested 2026-10-17 | | |
 | 2 | GT2 pulley, 20 teeth, 6 mm belt | 5 mm bore, fits the motor shaft | | |
 | 2 | GT2 idler, 20 teeth, with bearings | 5 mm bore in the model. Each turns on an M5 axle between the 2 tabs of a printed fork: Y on its own support ([2026-10-22](../docs/journal/2026-10-22.md)), X on top of the idler upright ([2026-10-26](../docs/journal/2026-10-26.md)) | | |
 | 2 | M5 × 25 screw, M5 nut and washer | idler axles | | |
-| – | GT2 belt tensioner springs | already have them. On the return run of each belt, near the idler | | |
-| – | GT2 belt, 6 mm | Y: about 780 mm around the pulleys, plus the ends in the clamp ([2026-10-23](../docs/journal/2026-10-23.md#the-model-today)). X: about 880 mm, plus the ends in the clamp ([2026-10-26](../docs/journal/2026-10-26.md#the-model-on-this-day)) | | |
+| – | GT2 belt tensioner springs | already have them. Y: on one end of the belt, next to the clamp under the bed, since 2026-11-06 | | |
+| – | GT2 belt, 6 mm | Y: about 780 mm around the pulleys, plus the ends in the clamp ([2026-10-23](../docs/journal/2026-10-23.md#the-model-today)). X: about 880 mm, plus the ends in the clamp ([2026-10-26](../docs/journal/2026-10-26.md#the-model-on-this-day)). Y fitted on 2026-11-06, both ends clamped under the bed ([journal](../docs/journal/2026-11-06.md)) | | |
 | 4 | Steel rod Ø8 × 400 mm | 2 for the bed (Y), 2 for the gantry (X) | | |
 | 10 | Linear bearing LM8SUU (short LM8UU, Ø8 × Ø15 × 16 mm) | 2 per rod: 4 on the bed, 4 on the X carriage, 2 spare | | |
 | 1 | MDF 15 mm (base) | 600 × 600 mm sheet. The 500 × 500 mm base was machined from it on a CNC router on 2026-10-23 | | |
-| – | MDF 6 mm / 3 mm (laser parts) | bed 350 × 250 × 6 mm, X carriage plate 144 × 70 × 6 mm | | |
-| 1 | M3 screw kit (screws and nuts) | 74 screws and 66 nuts so far: M3 × 8 (8), × 12 (12), × 14 (8), × 20 (24), × 25 (22). The counterbores are 3.3 mm deep since 2026-10-19, so socket heads fit under a plate or the base. Lists in the journal: [2026-10-12](../docs/journal/2026-10-12.md#screws), [2026-10-13 to 17](../docs/journal/2026-10-13_to_2026-10-17.md#screws-for-the-new-parts), [2026-10-20](../docs/journal/2026-10-20.md#screws-for-the-new-parts) and [2026-10-23](../docs/journal/2026-10-23.md#screws-for-the-new-parts). Bought 2026-10-11 | | |
+| – | MDF 6 mm / 3 mm | bed 350 × 250 × 6 mm, R5 corners, cut on the CNC router on 2026-11-06 ([journal](../docs/journal/2026-11-06.md#machining-the-bed-on-the-cnc)). X carriage plate 144 × 70 × 6 mm, still to make | | |
+| 1 | M3 screw kit (screws and nuts) | 74 screws and 66 nuts so far: M3 × 8 (8), × 12 (12), × 14 (8), × 20 (24), × 25 (22). The counterbores are 3.3 mm deep since 2026-10-19, so socket heads fit under a plate or the base. Lists in the journal: [2026-10-12](../docs/journal/2026-10-12.md#screws), [2026-10-13 to 17](../docs/journal/2026-10-13_to_2026-10-17.md#screws-for-the-new-parts), [2026-10-20](../docs/journal/2026-10-20.md#screws-for-the-new-parts), [2026-10-23](../docs/journal/2026-10-23.md#screws-for-the-new-parts) and [2026-11-06](../docs/journal/2026-11-06.md#screws-for-the-new-parts). Bought 2026-10-11 | | |
 | – | Hot glue | over solder joints and screw terminals | | |
-| – | PLA filament | printed parts, on a Bambu Lab X1 Carbon. Settings in the [2026-10-20 entry](../docs/journal/2026-10-20.md#print-settings) | | |
-| 1 | Writing sheet, acrylic or similar | 350 × 250 × 3 mm in the model, on top of the bed, 4 screws near the corners | | |
+| – | Super glue | the broken fan support, for now | | |
+| – | PLA filament | printed parts, on a Bambu Lab X1 Carbon, and on a P2S for the fan supports and the belt clamp. Settings in the [2026-10-20 entry](../docs/journal/2026-10-20.md#print-settings) | | |
+| 1 | Writing sheet, acrylic or MDF | 350 × 250 × 3 mm in the model, on top of the bed, 4 screws near the corners. Acrylic or 6 mm MDF, not decided yet (2026-11-06) | | |

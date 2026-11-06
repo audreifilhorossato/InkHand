@@ -4,12 +4,14 @@ Exports from the Fusion 360 model. A new export replaces the file with the same 
 
 | File | Date | Contents |
 |---|---|---|
-| [Plotter_Pen_InkHand.f3z](Plotter_Pen_InkHand.f3z) | 2026-10-28 | Fusion 360 archive (editable, design version 44), with the linked NEMA 17, LM8SUU, GT2 pulley and idler, Arduino + CNC Shield, LM2596 and MG90S models, and the CNC setup for the base |
-| [Plotter_Pen_InkHand.step](Plotter_Pen_InkHand.step) | 2026-10-28 | Y axis: base, 4 rod supports, 2 Y rods, 4 bearing blocks, bed and writing sheet, Y motor in its mount with a GT2 pulley, idler support with a GT2 idler. X axis: 2 uprights (one with the X motor plate, one with the X idler fork), 2 X rods side by side, carriage (4 bearing blocks and a plate). 8 × LM8SUU. Electronics: Arduino UNO + CNC Shield V3 and LM2596 on 6 standoffs, fan support over the shield. Not placed yet: the X motor with its pulley, the X idler, the fan and the MG90S servo. The separate X motor mount is still there, overlapping the plate of the motor upright, and `Suporte_Roldana (1)` is empty |
+| [Plotter_Pen_InkHand.f3z](Plotter_Pen_InkHand.f3z) | 2026-11-06 | Fusion 360 archive (editable, design version 51), with the linked NEMA 17, LM8SUU, GT2 pulley and idler, Arduino + CNC Shield, LM2596 and MG90S models, and the CNC setups for the base and the bed |
+| [Plotter_Pen_InkHand.step](Plotter_Pen_InkHand.step) | 2026-11-06 | Y axis: base, 4 rod supports, 2 Y rods, 4 bearing blocks, bed (R5 corners) and writing sheet, Y motor in its mount with a GT2 pulley, idler support with a GT2 idler, belt support under the bed and its 2 clamp plates (not joined to the bed yet). X axis: 2 uprights (one with the X motor plate, one with the X idler fork), 2 X rods side by side, carriage (4 bearing blocks and a plate). 8 × LM8SUU. Electronics: Arduino UNO + CNC Shield V3 and LM2596 on 6 standoffs, fan support over the shield. Not placed yet: the X motor with its pulley, the X idler, the fan and the MG90S servo. The separate X motor mount is still there, overlapping the plate of the motor upright, and `Suporte_Roldana (1)` is empty |
 
 Units are millimetres and the model is Y-up (the Fusion default). To edit it, open the `.f3z` in Fusion 360 with *File → Open → Open from my computer*.
 
 The `.f3z` also holds the CNC setup for the base, in the Manufacture workspace: a 600 × 600 × 15 mm MDF sheet, a Ø3.5 mm drill and a Ø4 mm flat end mill, and the Mach3 post processor. Details in the [2026-10-23 journal entry](../../docs/journal/2026-10-23.md#machining-the-base-on-the-cnc).
+
+Since 2026-11-05 it also holds the CNC setup for the bed (6 mm MDF, a Ø3.5 mm drill and a Ø3 mm flat end mill, Mach3 post, origin on a corner of the bed, work offset G54). Details in the [2026-11-06 journal entry](../../docs/journal/2026-11-06.md#machining-the-bed-on-the-cnc). Fusion marks these toolpaths as out of date in this export, because the model changed after them: generate them again before cutting another bed.
 
 The NEMA 17, LM8SUU, GT2 pulley and idler, Arduino UNO, CNC Shield, LM2596 and MG90S models were downloaded from GrabCAD and belong to their authors. They are most of the STEP's size (about 17 MB on 2026-10-17, about 36 MB since 2026-10-20 with the LM2596 and the servo).
 
@@ -38,6 +40,8 @@ The components have Portuguese names:
 | Assembly Micro Servo MG90S | Pen lift servo |
 | Eletrica / Suportes_eletrica | Standoffs for the Arduino and the LM2596 |
 | Suporte Fan | Fan support over the CNC Shield |
+| Suporte_correia | Belt support under the bed: holds both ends of the Y belt |
+| Encaixe | The 2 clamp plates that press the ends of the Y belt against the belt support |
 | Suporte_Roldana / Parte1, Parte1(Mirror) (2) | Idler support (Y axis), the two halves of the fork |
 | Suporte_Roldana (1) | Copy of the idler support, empty |
 | GT2_20T_kladka_dz | GT2 idler, 20 teeth, 5 mm bore |
@@ -52,3 +56,4 @@ The components have Portuguese names:
 | 2026-10-17 | b1fb3a7 | Rod holes Ø8.0, 3 mm counterbores, 2 motor mounts, GT2 pulleys, Arduino UNO + CNC Shield V3 on 4 standoffs |
 | 2026-10-20 | b98b5eb | 3.3 mm counterbores, LM2596 and MG90S, Y motor placed with a reinforced mount, lighter rod supports and upright |
 | 2026-10-24 | 5d40c58 | Idler support (fork) with a GT2 idler and its holes in the base, X motor mount started, CNC setup for the base |
+| 2026-10-28 | 6502bf6 | Uprights redrawn: one with the X motor plate, one with the X idler fork. Fan support, shorter Arduino standoff |

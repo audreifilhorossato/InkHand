@@ -20,4 +20,6 @@ On the base (Fusion 360 model, since 2026-10-19): the Arduino with the shield on
 
 Fitted on 2026-10-27 ([journal](../../docs/journal/2026-10-27.md), photo [F019](../../docs/photos/F019.jpg)): the Arduino with the shield, the LM2596 and the DC jack adapter, screwed to the base. The LM2596's header pins were replaced by wires soldered straight to the 12 V terminal of the DC jack. Solder joints and the terminal are covered with hot glue. One of the Arduino's 4 holes is too close to the components for a nut on top, so its standoff is shorter (2.7 mm) and the board is held by the other 3 for now. The fan sits on a printed support over the shield, about 5 mm above the heatsinks.
 
+Being redone since 2026-11-06 ([journal](../../docs/journal/2026-11-06.md), photo [F026](../../docs/photos/F026.jpg)): the first wiring was weak, with poor cables, so it is being done again with better ones. The fan support broke twice and is glued for now; the fan isn't fixed on it yet.
+
 TODO: add a wiring diagram (Fritzing or hand drawing) as `wiring.png`.

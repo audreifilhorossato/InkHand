@@ -4,9 +4,9 @@
 
 I write the alphabet by hand, turn each letter into single-line vectors, and a C++ program assembles any text, adds small natural variations so no two letters look the same, and generates G-code for the plotter.
 
-> 🚧 **Status:** electronics bench test done and the pen servo working on its LM2596; both axes drawn in Fusion 360 (the moving bed with its writing sheet in Y, the fixed gantry with the X carriage), with the Y motor and its idler in place, the uprights carrying the X motor and the X idler, the Arduino + CNC Shield, the LM2596 and a fan support; base machined on a CNC router and the Y axis assembled on it (rods, rod supports, bearing blocks and the Y motor), with the parts printed on a Bambu Lab X1 Carbon; electronics fixed and wired on the base (Oct 2026). Next: the gantry with the X motor and the X belt, the bed and the Y belt, then the pen lift (Z).
+> 🚧 **Status:** electronics bench test done and the pen servo working on its LM2596; the machine drawn in Fusion 360 and **assembled** (Nov 2026): the base and the bed machined on a CNC router, the Y axis with the bed, its belt, the belt clamp and a tension spring, and the gantry with the 2 uprights, the X rods, the carriage's bearing blocks, the X motor and the X idler, with the parts printed on Bambu Lab printers. Next: the X carriage plate with the pen lift (Z) and the X belt, the wiring (being redone), the writing sheet, then the first moves.
 
-![InkHand electronics bench test](docs/photos/F001.jpg)
+![InkHand assembled on my bench at the lab, 2026-11-06: the bed on the Y axis, the gantry with the X rods, the X motor and the X idler, and the electronics in front](docs/photos/F028.jpg)
 <!-- Replace with a GIF of the plotter writing when it works -->
 
 ## How it works
