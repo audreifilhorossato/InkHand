@@ -22,4 +22,6 @@ Fitted on 2026-10-27 ([journal](../../docs/journal/2026-10-27.md), photo [F019](
 
 Being redone since 2026-11-06 ([journal](../../docs/journal/2026-11-06.md), photo [F026](../../docs/photos/F026.jpg)): the first wiring was weak, with poor cables, so it is being done again with better ones. The fan support broke twice and is glued for now; the fan isn't fixed on it yet.
 
+Fan box, drawn on 2026-11-10 and sent to print ([journal](../../docs/journal/2026-11-10.md#fan-box)): it replaces the fan support. A bracket stands across the end of the Arduino, on 2 of its holes, with the board's own screws through its feet. The box hooks onto the edges of the CNC Shield at the far end and is screwed to the bracket with 2 × M3 × 8. The fan sits inside the box, over a 30 × 36 mm opening above the drivers, held by double-sided tape on its side.
+
 TODO: add a wiring diagram (Fritzing or hand drawing) as `wiring.png`.
