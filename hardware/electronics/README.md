@@ -24,4 +24,8 @@ Being redone since 2026-11-06 ([journal](../../docs/journal/2026-11-06.md), phot
 
 Fan box, drawn on 2026-11-10 and sent to print ([journal](../../docs/journal/2026-11-10.md#fan-box)): it replaces the fan support. A bracket stands across the end of the Arduino, on 2 of its holes, with the board's own screws through its feet. The box hooks onto the edges of the CNC Shield at the far end and is screwed to the bracket with 2 × M3 × 8. The fan sits inside the box, over a 30 × 36 mm opening above the drivers, held by double-sided tape on its side.
 
+Fan box, 2026-11-13 ([journal](../../docs/journal/2026-11-13.md#fan-box)): the loose leg on the far end is now held by 2 × M3 × 8, with their nuts in pockets on the outside of the box wall, under the leg. In the model the box is back on the Arduino's holes.
+
+Motor wires, 2026-11-13: more of them connected, run up along the upright and held with double-sided tape. There's no cable path in the model yet.
+
 TODO: add a wiring diagram (Fritzing or hand drawing) as `wiring.png`.

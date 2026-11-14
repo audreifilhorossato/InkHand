@@ -4,8 +4,8 @@ Exports from the Fusion 360 model. A new export replaces the file with the same 
 
 | File | Date | Contents |
 |---|---|---|
-| [Plotter_Pen_InkHand.f3z](Plotter_Pen_InkHand.f3z) | 2026-11-12 | Fusion 360 archive (editable, design version 57), with the linked NEMA 17, LM8SUU, GT2 pulley and idler, Arduino + CNC Shield, LM2596 and MG90S models, and the CNC setups for the base and the bed |
-| [Plotter_Pen_InkHand.step](Plotter_Pen_InkHand.step) | 2026-11-12 | Y axis: base, 4 rod supports, 2 Y rods, 4 bearing blocks, bed and writing sheet (both with R5 corners), Y motor in its mount with a GT2 pulley, idler support with a GT2 idler, belt support under the bed with its 2 clamp plates. X axis: 2 uprights (one with the X motor plate, one with the X idler fork), the X motor with a GT2 pulley, 2 X rods side by side, carriage (4 bearing blocks and a plate) with the X belt clamp and the pen lift support (a frame with 2 vertical Ø8 × 45 mm rods and 2 caps; the pen carriage isn't drawn yet). 8 × LM8SUU. Electronics: Arduino UNO + CNC Shield V3 and LM2596 on 6 standoffs, fan box over the shield, with a screwed leg (in this export the fan box is 3.1 mm off its holes and 1.5 mm up). Not placed yet: the X idler, the fan and the MG90S servo. `Suporte_Roldana (1)` is empty. The bed and the X carriage are at one end of their travel |
+| [Plotter_Pen_InkHand.f3z](Plotter_Pen_InkHand.f3z) | 2026-11-13 | Fusion 360 archive (editable, design version 62), with the linked NEMA 17, LM8SUU, GT2 pulley and idler, Arduino + CNC Shield, LM2596 and MG90S models, and the CNC setups for the base and the bed |
+| [Plotter_Pen_InkHand.step](Plotter_Pen_InkHand.step) | 2026-11-13 | Y axis: base, 4 rod supports, 2 Y rods, 4 bearing blocks, bed and writing sheet (both with R5 corners), Y motor in its mount with a GT2 pulley, idler support with a GT2 idler, belt support under the bed (a solid block with 8 nut pockets inside, since 2026-11-13) with its 2 clamp plates (still at their old height, 5 mm under it). X axis: 2 uprights (one with the X motor plate, one with the X idler fork), the X motor with a GT2 pulley, 2 X rods side by side, carriage (4 bearing blocks and a plate) with the X belt clamp and the pen lift support (a frame with 2 vertical Ø8 × 45 mm rods in Ø8.6 sockets and 2 caps, both with solid bases since 2026-11-13) and a first bearing block of the pen carriage on one rod, not exactly placed yet. 9 × LM8SUU (one loose). Electronics: Arduino UNO + CNC Shield V3 and LM2596 on 6 standoffs, fan box over the shield on the Arduino's holes, with a leg screwed on with 2 screws. Not placed yet: the X idler, the fan and the MG90S servo. `Suporte_Roldana (1)` is empty. The bed and the X carriage are at one end of their travel |
 | [writing-sheet.dxf](writing-sheet.dxf) | 2026-11-10 | Laser file of the writing sheet, exported from Fusion as `mesamovel.dxf`: 250 × 350 mm outline with R5 corners and 4 × Ø3.4 holes 20 mm from the edges, in millimetres. Cut in 3 mm acrylic ([journal](../../docs/journal/2026-11-10.md#the-writing-sheet)) |
 
 Units are millimetres and the model is Y-up (the Fusion default). To edit it, open the `.f3z` in Fusion 360 with *File → Open → Open from my computer*.
@@ -42,13 +42,14 @@ The components have Portuguese names:
 | Suporte Fan / FAN1 | Fan box over the CNC Shield (since 2026-11-10; before, a one-piece fan support) |
 | Suporte Fan / FAN2 | Bracket of the fan box, on the Arduino |
 | Suporte Fan / FAN3 | Screwed leg of the fan box (since 2026-11-12), holds one edge of the CNC Shield |
-| Suporte_correia | Belt support under the bed: holds both ends of the Y belt |
+| Suporte_correia | Belt support under the bed: holds both ends of the Y belt (since 2026-11-13 a solid block with the nuts printed in) |
 | Encaixe | The 2 clamp plates that press the ends of the Y belt against the belt support |
 | suportecorreiasuperior / Suportebaixo, Suportebaixo(Mirror) | X belt clamp on the carriage plate: the 2 lower blocks |
 | suportecorreiasuperior / PRESILHA, PRESILHA(Mirror) | X belt clamp: the 2 clamp plates on top of the blocks |
 | suporteZ / Z1 | Pen lift (Z) support: the frame on the X carriage plate |
 | suporteZ / EncaixeZ, EncaixeZ(Mirror) | Pen lift support: the 2 caps that close the top of the rods |
 | suporteZ / Haste (1) | Pen lift support: the 2 vertical Ø8 × 45 mm rods |
+| suporteZ / Carrinho (1) / Parte Alta (2), Parte Baixa (2) | Pen carriage: a bearing block on one Z rod, the 2 halves (since 2026-11-13) |
 | Suporte_Roldana / Parte1, Parte1(Mirror) (2) | Idler support (Y axis), the two halves of the fork |
 | Suporte_Roldana (1) | Copy of the idler support, empty |
 | GT2_20T_kladka_dz | GT2 idler, 20 teeth, 5 mm bore |
