@@ -68,3 +68,4 @@ The components have Portuguese names:
 | 2026-11-06 | 3de4aa3 | Belt support under the bed with its 4 holes in the bed, Y belt clamp plates, bed with R5 corners, fan support v2 and v3, CNC setup for the bed |
 | 2026-11-10 | 8b36c08 | Writing sheet with R5 corners and its DXF, Y belt support 4 mm shorter, X belt clamp, new holes in the X carriage plate, fan box in 2 parts, X motor placed |
 | 2026-11-12 | eab8293 | Pen lift (Z) support: frame, 2 vertical rods and caps on the X carriage plate. Fan box with a screwed leg, Y clamp plates with Ø6.4 counterbores, 4 counterbores removed from the X carriage plate |
+| 2026-11-13 | 1aa8150 | Z frame and caps with solid bases and Ø8.6 rod sockets, a first bearing block of the pen carriage. Fan box stronger, with a 2-screw leg, back on the Arduino holes. Y belt support as a solid block with 8 nuts printed in |
